@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.create-form {
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #333333;
+  border-radius: 10px;
+  text-align: center;
+}
+.create-form h2 {
+  color: #ffffff;
+}
+.create-form .movie-form .input-label {
+  display: block;
+  margin-bottom: 5px;
+}
+.create-form .movie-form .input-field {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #555555;
+  border-radius: 5px;
+  background-color: #444444;
+  color: #ffffff;
+}
+.create-form .movie-form .input-field:focus {
+  outline: none;
+  border-color: #007bff;
+}
+.create-form .movie-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #555555;
+  border-radius: 5px;
+  background-color: #444444;
+  color: #ffffff;
+  resize: vertical;
+}
+
+.del-sub-btn {
+  display: flex;
+  justify-content: space-between;
+}
+.del-sub-btn .submit-button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.del-sub-btn .submit-button:hover {
+  background-color: #0056b3;
+}
+.del-sub-btn .delete-button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.del-sub-btn .delete-button:hover {
+  background-color: #0056b3;
+}/*# sourceMappingURL=create.css.map */

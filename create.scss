@@ -1,0 +1,92 @@
+$background-color: #1a1a1a;
+$form-bg-color: #333333;
+$input-bg-color: #444444;
+$button-bg-color: #007bff;
+$button-hover-color: #0056b3;
+$text-color: #ffffff;
+$input-border-color: #555555;
+$input-horizontal-padding: 15px; // Измените на ваше предпочтение
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: $background-color;
+  color: $text-color;
+  font-family: Arial, sans-serif;
+}
+
+.create-form {
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: $form-bg-color;
+  border-radius: 10px;
+  text-align: center;
+
+  h2 {
+    color: $text-color;
+  }
+
+  .movie-form {
+    .input-label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .input-field {
+      width: 100%;
+      padding: 10px $input-horizontal-padding;
+      margin-bottom: 15px;
+      border: 1px solid $input-border-color;
+      border-radius: 5px;
+      background-color: $input-bg-color;
+      color: $text-color;
+
+      &:focus {
+        outline: none;
+        border-color: $button-bg-color;
+      }
+    }
+
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid $input-border-color;
+      border-radius: 5px;
+      background-color: $input-bg-color;
+      color: $text-color;
+      resize: vertical;
+    }
+  }
+}
+.del-sub-btn {
+  display: flex;
+  justify-content: space-between;
+  .submit-button {
+    background-color: $button-bg-color;
+    color: $text-color;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+
+    &:hover {
+      background-color: $button-hover-color;
+    }
+  }
+  .delete-button {
+    background-color: $button-bg-color;
+    color: $text-color;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+
+    &:hover {
+      background-color: $button-hover-color;
+    }
+  }
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="create.css" />
+    <link rel="stylesheet" href="sweetalert2.min.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html">Main page</a>
+    </header>
+    <div class="create-form">
+      <h2>Create/Change/Delete</h2>
+      <form id="movieForm" class="movie-form">
+        <label class="input-label" for="movieTitle">Название фильма:</label>
+        <input
+          class="input-field"
+          type="text"
+          id="movieTitle"
+          name="movieTitle"
+          required
+        />
+
+        <label class="input-label" for="releaseYear">Год выпуска:</label>
+        <input
+          class="input-field"
+          type="text"
+          id="releaseYear"
+          name="releaseYear"
+          required
+        />
+
+        <label class="input-label" for="genre">Жанр:</label>
+        <input
+          class="input-field"
+          type="text"
+          id="genre"
+          name="genre"
+          required
+        />
+
+        <label class="input-label" for="movieImage"
+          >Ссылка на изображение:</label
+        >
+        <input
+          class="input-field"
+          type="text"
+          id="movieImage"
+          name="movieImage"
+          required
+        />
+
+        <label class="input-label" for="duration">Длительность (мин):</label>
+        <input
+          class="input-field"
+          type="text"
+          id="duration"
+          name="duration"
+          required
+        />
+
+        <label class="input-label" for="director">Режиссер:</label>
+        <input
+          class="input-field"
+          type="text"
+          id="director"
+          name="director"
+          required
+        />
+
+        <label class="input-label" for="description">Описание:</label>
+        <textarea
+          class="input-field"
+          id="description"
+          name="description"
+          rows="4"
+          required
+        ></textarea>
+        <label class="input-label" for="movieImageUrl"
+          >Ссылка на фоновое изображениtе:</label
+        >
+        <input
+          class="input-field"
+          type="text"
+          id="movieImageUrl"
+          name="movieImageUrl"
+          required
+        />
+        <div class="del-sub-btn">
+          <button class="submit-button" type="submit">Save</button>
+          <button
+            class="delete-button"
+            onclick="function1()"
+            type="button"
+            id="deleteButton"
+          >
+            Delete
+          </button>
+        </div>
+      </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.all.min.js"></script>
+
+    <script src="create.js"></script>
+  </body>
+</html>

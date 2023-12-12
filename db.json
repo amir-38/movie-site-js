@@ -1,0 +1,125 @@
+{
+  "movies": [
+    {
+      "title": " Interstellar",
+      "releaseYear": "2014",
+      "genre": "Adventure ,Drama",
+      "image": "https://upload.wikimedia.org/wikipedia/ru/c/c3/Interstellar_2014.jpg",
+      "duration": "2h 49",
+      "director": " Christopher Nolan",
+      "description": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans",
+      "movieImageUrl": "https://free4kwallpapers.com/uploads/originals/2020/11/14/interstellar-space-wallpaper.jpg",
+      "id": 1
+    },
+    {
+      "title": "Top Gun: Maverick",
+      "releaseYear": "2022",
+      "genre": "Action Drama",
+      "image": "data:image/jpeg;base64,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",
+      "duration": "2h 10",
+      "director": " Joseph Kosinski",
+      "description": "After thirty years, Maverick is still pushing the envelope as a top naval aviator, but must confront ghosts of his past when he leads TOP GUN's elite graduates on a mission that demands the ultimate sacrifice from those chosen to fly it.",
+      "movieImageUrl": "https://i0.wp.com/jasonsmovieblog.com/wp-content/uploads/2022/05/wallpapersden.com_top-gun-maverick-hd-tom-cruise-movie_3418x1479.jpg?fit=3418%2C1479&ssl=1",
+      "id": 2
+    },
+    {
+      "title": " Intouchables",
+      "releaseYear": "2011",
+      "genre": "Biography Comedy Drama",
+      "image": "https://static.tvtropes.org/pmwiki/pub/images/image_0482.jpeg",
+      "duration": "1h 52",
+      "director": "Olivier Nakache Éric Toledano",
+      "description": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
+      "movieImageUrl": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/7dada20dafaaf219813e776f5992d221ceb689fa7fa51dfa74f054544047c686._RI_TTW_.jpg",
+      "id": 3
+    },
+    {
+      "title": " Law Abiding Citizen",
+      "releaseYear": "2009",
+      "genre": "Action Drama Crime",
+      "image": "https://m.media-amazon.com/images/M/MV5BNTQ1NmZlNDktZTg0NS00ZjNhLTk5M2QtNzExNjUzY2MwMjliXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg",
+      "duration": "1h 49",
+      "director": " F. Gary Gray",
+      "description": "A frustrated man decides to take justice into his own hands after a plea bargain sets one of his family's killers free.",
+      "movieImageUrl": "https://c4.wallpaperflare.com/wallpaper/115/324/838/movie-law-abiding-citizen-gerard-butler-jamie-foxx-wallpaper-preview.jpg",
+      "id": 4
+    },
+    {
+      "title": "Ford v Ferrari",
+      "releaseYear": "2019",
+      "genre": "Action Biography Drama",
+      "image": "https://m.media-amazon.com/images/M/MV5BM2UwMDVmMDItM2I2Yi00NGZmLTk4ZTUtY2JjNTQ3OGQ5ZjM2XkEyXkFqcGdeQXVyMTA1OTYzOTUx._V1_.jpg",
+      "duration": "2h 32",
+      "director": "James Mangold",
+      "description": "American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari at the 24 Hours of Le Mans in 1966.",
+      "movieImageUrl": "https://w0.peakpx.com/wallpaper/710/454/HD-wallpaper-movie-ford-v-ferrari-christian-bale-matt-damon.jpg",
+      "id": 5
+    },
+    {
+      "title": "Only the Brave",
+      "releaseYear": "2017",
+      "genre": "Action Biography Drama",
+      "image": "https://m.media-amazon.com/images/M/MV5BYzFjNDBkYmQtZDE5YS00YjQ2LTgzZjAtZjM3ZTI4NzkzZjYyXkEyXkFqcGdeQXVyNDI3NjU1NzQ@._V1_.jpg",
+      "duration": "2h 14",
+      "director": "Joseph Kosinski",
+      "description": "Based on the true story of the Granite Mountain Hotshots, a group of elite firefighters who risk everything to protect a town from a historic wildfire.",
+      "movieImageUrl": "https://image.tmdb.org/t/p/original/lNX7uF53jhm89WnV9Ivz6YMTBRi.jpg",
+      "id": 6
+    },
+    {
+      "title": "Inseption",
+      "releaseYear": "2010",
+      "genre": "Action Adventure Sci-Fi",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
+      "duration": "2h 28",
+      "director": " Christopher Nolan",
+      "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
+      "movieImageUrl": "https://images3.alphacoders.com/610/610318.jpg",
+      "id": 7
+    },
+    {
+      "title": "Sherlock Holmes",
+      "releaseYear": "2009",
+      "genre": "Mystery Action Adventure",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTg0NjEwNjUxM15BMl5BanBnXkFtZTcwMzk0MjQ5Mg@@._V1_.jpg",
+      "duration": "2h 8",
+      "director": " Guy Ritchie",
+      "description": "Detective Sherlock Holmes and his stalwart partner Watson engage in a battle of wits and brawn with a nemesis whose plot is a threat to all of England.",
+      "movieImageUrl": "https://cdn.wallpapersafari.com/29/48/1uwh3c.jpg",
+      "id": 8
+    },
+    {
+      "title": "Taken",
+      "releaseYear": "2008",
+      "genre": "Action Crime Thriller",
+      "image": "https://m.media-amazon.com/images/M/MV5BZDA0ODYzZGMtOGI3ZS00YTdjLTk0ZjEtYzA0Zjg3MDM4OTA4XkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_FMjpg_UX1000_.jpg",
+      "duration": "1h 30",
+      "director": " Pierre Morel",
+      "description": "A retired CIA agent travels across Europe and relies on his old skills to save his estranged daughter, who has been kidnapped while on a trip to Paris.",
+      "movieImageUrl": "https://wallpapercave.com/wp/wp4233407.jpg",
+      "id": 9
+    },
+    {
+      "title": "Cars",
+      "releaseYear": "2006",
+      "genre": "Animation Adventure Comedy",
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/34/Cars_2006.jpg",
+      "duration": "1h 57",
+      "director": " John LasseterJoe Ranft",
+      "description": "On the way to the biggest race of his life, a hotshot rookie race car gets stranded in a rundown town and learns that winning isn't everything in life.",
+      "movieImageUrl": "https://wallpaperaccess.com/full/1706769.jpg",
+      "id": 10
+    },
+    {
+      "title": "Limitless",
+      "releaseYear": "2011",
+      "genre": "Sci-Fi Thriller",
+      "image": "https://m.media-amazon.com/images/M/MV5BYmViZGM0MGItZTdiYi00ZDU4LWIxNDYtNTc1NWQ5Njc2N2YwXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_FMjpg_UX1000_.jpg",
+      "duration": "1h 45",
+      "director": " Neil Burger",
+      "description": "A mysterious pill that enables the user to access 100% of his brain's abilities transforms a struggling writer into a financial wizard, but it also puts him in a new world with many dangers.",
+      "movieImageUrl": "https://streamcoimg-a.akamaihd.net/000/336/042/336042-Banner-L1-4234556aca97979b1537eab32d4c943e.jpeg?resize=1440px:*&quality=85",
+      "id": 11
+    }
+  ]
+}
